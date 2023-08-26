@@ -77,7 +77,7 @@ public class TV {
 	
 	//getNumTV
 	public int getNumTV() {
-		return numTV;
+		return TV.numTV;
 	}
 	
 	//setControl
