@@ -71,10 +71,9 @@ public class TV {
 
 	//setNumTV
 	public void setNumTV(int num) {
-		if(num != 0) {
 		numTV = num ;
-		}
 	}
+	
 	
 	//getNumTV
 	public int getNumTV() {
