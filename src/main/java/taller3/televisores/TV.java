@@ -76,7 +76,7 @@ public class TV {
 	
 	
 	//getNumTV
-	public int getNumTV() {
+	public static int getNumTV() {
 		return TV.numTV;
 	}
 	
