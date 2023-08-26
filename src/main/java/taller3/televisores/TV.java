@@ -67,6 +67,11 @@ public class TV {
 		this.numTV = numTV;
 	}
 	
+	//getNumTV
+	public int getNumTV() {
+		return numTV;
+	}
+	
 	//setControl
 	public void setControl(Control control) {
 		this.control = control;
