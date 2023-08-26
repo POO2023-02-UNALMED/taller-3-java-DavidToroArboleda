@@ -28,7 +28,7 @@ public class Control {
 	}	
 	
 	//VolumenDown
-	public void volumenDown(int volumen) {
+	public void volumenDown() {
 		this.tv.volumenDown();
 	}
 	
@@ -38,7 +38,7 @@ public class Control {
 	}
 	
 	//canalDown
-	public void canalDown(int canal) {
+	public void canalDown() {
 		this.tv.canalDown();
 	}
 	
