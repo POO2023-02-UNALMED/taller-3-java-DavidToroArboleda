@@ -63,8 +63,8 @@ public class TV {
 	}
 
 	//setNumTV
-	public void setNumTV(int numTV) {
-		this.numTV = numTV;
+	public static void setNumTV(int numTV) {
+		return;
 	}
 	
 	//getNumTV
