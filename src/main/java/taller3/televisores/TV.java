@@ -9,7 +9,7 @@ public class TV {
 	private int volumen;
 	Control control;
 	
-	public static int numTV;
+	public int numTV;
 	
 	//constructor TV
 	public TV(Marca marca,boolean estado){
@@ -71,7 +71,9 @@ public class TV {
 
 	//setNumTV
 	public void setNumTV(int num) {
+		if(num != 0) {
 		numTV = num ;
+		}
 	}
 	
 	//getNumTV
