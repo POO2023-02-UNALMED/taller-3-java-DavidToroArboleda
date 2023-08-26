@@ -18,7 +18,7 @@ public class TV {
 		canal = 1;
 		volumen = 1;
 		precio = 500;	
-		numTV++;
+		//numTV++;
 	}
 	
 	//setMarca
