@@ -93,7 +93,7 @@ public class TV {
 	
 	//turnOn
 	public void turnOn() {
-		if (estado = false) {
+		if (estado == false) {
 			estado = true;
 		}
 		else {
@@ -103,7 +103,7 @@ public class TV {
 	
 	//turnOff
 	public void turnOff() {
-		if (estado = true) {
+		if (estado == true) {
 			estado = false;
 		}
 		else {
