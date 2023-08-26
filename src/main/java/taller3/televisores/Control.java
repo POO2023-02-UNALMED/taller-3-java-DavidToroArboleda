@@ -19,42 +19,42 @@ public class Control {
 	
 	//setVolumen
 	public void setVolumen(int volumen) {
-		this.tv.setVolumen(volumen);
+		tv.setVolumen(volumen);
 	}
 	
 	//setCanal
 	public void setCanal(int canal) {
-		this.tv.setCanal(canal);
+		tv.setCanal(canal);
 	}	
 	
 	//VolumenDown
 	public void volumenDown() {
-		this.tv.volumenDown();
+		tv.volumenDown();
 	}
 	
 	//VolumenUp
 	public void volumenUp() {
-		this.tv.volumenUp();
+		tv.volumenUp();
 	}
 	
 	//canalDown
 	public void canalDown() {
-		this.tv.canalDown();
+		tv.canalDown();
 	}
 	
 	//canalUp
 	public void canalUp() {
-		this.tv.canalUp();
+		tv.canalUp();
 	}
 	
 	//turnOff
 	public void turnOff() {
-		this.tv.turnOff();
+		tv.turnOff();
 	}
 	
 	//turnOn
 	public void turnOn() {
-		this.tv.turnOn();
+		tv.turnOn();
 	}
 	
 	//setTv
