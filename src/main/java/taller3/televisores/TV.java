@@ -137,7 +137,7 @@ public class TV {
 	
 	//volumenUp
 	public void volumenUp() {
-		if (estado == true && volumen < 7 && volumen >= 0) {
+		if (this.estado == true && volumen < 7 ) {
 			volumen++;
 		}
 		else {
@@ -147,8 +147,8 @@ public class TV {
 	
 	//volumenDown
 	public void volumenDown() {
-		if (estado == true && volumen != 0 && volumen <= 7) {
-			canal--;
+		if (this.estado == true && volumen > 0 && volumen <= 7) {
+			volumen--;
 		}
 		else {
 			return;
