@@ -9,7 +9,7 @@ public class TV {
 	private int volumen;
 	Control control;
 	
-	public int numTV;
+	public static int numTV;
 	
 	//constructor TV
 	public TV(Marca marca,boolean estado){
@@ -18,7 +18,7 @@ public class TV {
 		canal = 1;
 		volumen = 1;
 		precio = 500;	
-		//numTV++;
+		numTV++;
 	}
 	
 	//setMarca
@@ -70,8 +70,8 @@ public class TV {
 	}
 
 	//setNumTV
-	public void setNumTV(int numTV) {
-		this.numTV = numTV ;
+	public void setNumTV(int num) {
+		numTV = num ;
 	}
 	
 	//getNumTV
