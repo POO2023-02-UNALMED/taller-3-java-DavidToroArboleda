@@ -9,7 +9,7 @@ public class TV {
 	private int volumen;
 	Control control;
 	
-	int numTV;
+	static int numTV;
 	
 	//constructor TV
 	public TV(Marca marca,boolean estado){
