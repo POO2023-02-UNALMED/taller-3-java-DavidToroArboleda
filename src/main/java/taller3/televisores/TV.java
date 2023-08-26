@@ -22,7 +22,7 @@ public class TV {
 	}
 	
 	//setMarca
-	public void setVolumen(Marca marca) {
+	public void setMarca(Marca marca) {
 		this.marca = marca;
 	}
 	
