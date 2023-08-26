@@ -64,7 +64,7 @@ public class Control {
 	
 	//getTv
 	public TV getTv() {
-		return tv;
+		return this.tv; 
 	}
 	
 	
