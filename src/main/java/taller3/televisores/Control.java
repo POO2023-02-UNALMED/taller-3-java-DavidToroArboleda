@@ -29,12 +29,16 @@ public class Control {
 	
 	//VolumenDown
 	public void volumenDown() {
+		if(tv.estado == true) {
 		tv.volumenDown();
+		}
 	}
 	
 	//VolumenUp
 	public void volumenUp() {
+		if(tv.estado == true) {
 		tv.volumenUp();
+		}
 	}
 	
 	//canalDown
